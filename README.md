@@ -9,6 +9,9 @@ All components are docker-based
 
 ### With Docker
 
+#### Real-time Workflow
+![alt text](https://github.com/harshakoneru98/docker-starter/blob/main/app/images/docker-workflow.png)
+
 #### To start the application
 
 Step 1: Create docker network
@@ -69,7 +72,7 @@ Step 6: Stop and remove containers
 
     docker-compose -f docker-compose.yaml down
 
-    This will automatically removes created network.
+This will automatically removes created network.
 
 #### To build a docker image from the application
 
