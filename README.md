@@ -65,6 +65,12 @@ As mentioned containers are portable, there must be some kind of storage for tho
 
 CONTAINER is a running environment for IMAGE
 
+### Docker Volumes
+Generally, Docker containers don't persist the data i.e. data is gone when restarting or removing the container and starts from a fresh state. To persist data, we need Docker Volumes. Some of the use cases are Databases and Stateful Applications.
+
+#### What is Docker Volume?
+The folder in the physical host file system is mounted into the virtual file system of Docker. So, when a container writes to its file system, then the data is automatically replicated to the host file system and vice-versa. So, when we restart the container, data will be automatically replicated to the virtual file system of Docker.
+
 ## Demo app - Developing with Docker
 
 This demo app shows a simple user profile app set up using 
@@ -161,3 +167,6 @@ Step 1: Run the docker-compose file which includes the application image
     docker exec -it <container_id> /bin/bash
 
 Either one of the above will work, as sometimes some containers won't have bash installed.
+
+### Resources
+https://www.youtube.com/watch?v=3c-iBn73dDE
