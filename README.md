@@ -169,7 +169,7 @@ Step 1: Run the docker-compose file which includes the application image
 Either one of the above will work, as sometimes some containers won't have bash installed.
 
 ### Next steps
-Now we can develop 10's or 100's complex containers. These containers would need to be deployed across multiple servers in a distributive way. Manually managing those containers is a hectic task. As a next step, we can learn about **Container Orchestration tools** and **Kubernetes** to automate these tasks.
+Now we can develop 10's or 100's complex containers. These containers would need to be deployed across multiple servers in a distributive way. Manually managing those containers is a hectic task. As a next step, we can learn about **Container Orchestration tools** like **Kubernetes** to automate these tasks.
 
 ### Resources
 https://www.youtube.com/watch?v=3c-iBn73dDE
